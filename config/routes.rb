@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/index'
   get 'pages/join_us'
   get 'pages/support'
   get 'pages/news'
